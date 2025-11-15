@@ -25,8 +25,8 @@ public class Product {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long ID;
+	private long id;
 	private String name;
-	private LocalDate validate;
+	private LocalDate validity;
 	private BigDecimal price;
 }
